@@ -1,0 +1,21 @@
+[package]
+name = "log-parser"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+clap = { version = "4.4", features = ["derive"] }
+clipboard = "0.5"
+crossterm = { version = "0.27", features = ["event-stream"] }
+futures = "0.3"
+notify = "6.1"
+parking_lot = "0.12"
+ratatui = "0.23"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+syntect = "5.0"
+syntect-tui = "2.0"
+tokio = { version = "1.26", features = ["full"] }
+xml-rs = "0.8"
